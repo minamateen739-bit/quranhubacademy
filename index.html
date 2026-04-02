@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+   <title> Quran Hub Academy | Website</title>
+</head>
+<body>
+   
+   <div id="welcomeModal" class="modal-overlay">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <p onclick="closeModal()" style="cursor:pointer; text-align:center; color:grey; text-decoration:underline;">
+  Skip for now
+</p>
+    <div class="header-text">
+       <p style="color:red; font-weight:bold; margin:0;">Find a Tutor <span style="color:black">OR</span></p>
+       <p style="color:#007BFF; font-weight:bold; margin:5px 0;">Call Us @ +92-3148847879</p>
+    </div>
+
+    <form id="tutorForm">
+      <div class="input-group">
+        <label>Name: <span>*</span></label>
+        <input type="text" placeholder="Enter Your Name Here...">
+      </div>
+
+      <div class="input-group">
+        <label>Course to Study: <span>*</span></label>
+        <div class="radio-group">
+          <label><input type="radio" name="course" value="Tajweed"> Tajweed</label>
+          <label><input type="radio" name="course" value="Recitation"> Recitation</label>
+          <label><input type="radio" name="course" value="Arabic"> Arabic</label>
+          <label><input type="radio" name="course" value="Hifz"> Hifz</label>
+          <label><input type="radio" name="course" value="Tafseer"> Tafseer</label>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>City | Area: <span>*</span></label>
+        <input type="text" placeholder="Enter Your City | Area">
+      </div>
+
+      <div class="input-group">
+        <label>Phone No: <span>*</span></label>
+        <input type="text" placeholder="Enter Your Phone No">
+        <small>(With Country Code)</small>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Now</button>
+    </form>
+  </div>
+</div>
+ 
+
+
+    <nav class="navbar">
+        <div class="logo"><img src="image3.png" alt="Quran Hub Logo" width="100" height="100"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact" class="btn-trial">Start Free Trial</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Learn Quran Online with <br><span>Expert Teachers</span></h1>
+            <p>Certified teachers with 15+ years of experience. High-quality education for kids and adults.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/yournumber" class="btn-primary">👉 Start Free Trial</a>
+                <p class="trial-tagline">3–4 Days Free Trial | No Commitment</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="highlights">
+        <div class="red" id="tutors">
+            <h2>Certified Tutors</h2>
+            <br>
+            <p>Male & Female available</p>
+            
+        </div>
+        <div class="red" id="experience">
+            <h3>15+ Years Exp</h3>
+            <br>
+            <p>Qualified & Experienced</p>
+
+        </div>
+        <div class="red" id="tests">
+            <h3>Monthly Tests</h3>
+            <br>
+            <p>Track your progress</p>
+            
+        </div>
+        <div class="red" id="flexible">
+            <h3>Flexible Timing</h3>
+            <br>
+            <p>Learn at your pace</p>
+            
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Academy?</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>We provide a highly professional environment with teachers certified by <strong>Dawat-e-Islami</strong>. Our focus is on <strong>Tajweed, Hifz, and Basic Qaida</strong> with a methodology that is easy and engaging for all ages.</p>
+                    <ul>
+                        <li>✅ One-on-one personalized sessions</li>
+                        <li>✅ 30-minute focused classes</li>
+                        <li>✅ Certification after course completion</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <h3>Flexible Platforms</h3>
+                    <p>Join classes via Zoom, WhatsApp, IMO, or Microsoft Teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <h2 class="section-title">Our Popular Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="badge">Beginner</div>
+                <h3>Madani Qaida</h3>
+                <p>Perfect for beginners. Focus on basic Arabic alphabets and pronunciation.</p>
+                <a href="#" class="btn-enroll">Enroll Now</a>
+            </div>
+            <div class="course-card">
+                <div class="badge">Expert</div>
+                <h3>Quran with Tajweed</h3>
+                <p>Proper pronunciation and rules of Tajweed with daily guided practice.</p>
+                <a href="#" class="btn-enroll">Enroll Now</a>
+            </div>
+            <div class="course-card">
+                <div class="badge">Hifz</div>
+                <h3>Hifz Program</h3>
+                <p>Memorization plan with weekly revision and monthly progress tests.</p>
+                <a href="#" class="btn-enroll">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="contact" id="contact">
+        <div class="container">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Book your 4-day free trial today and experience our teaching quality.</p>
+            <p>thank you for your interest!</p>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/03148847879" class="social-btn whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="https://www.facebook.com/thequraanhub?rdid" class="social-btn facebook" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.instagram.com/quranhuub?igsh=MXM2czA4cDNvMnE2dg==" class="social-btn instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.tiktok.com/https://www.tiktok.com/@quraanhub5?_r=1&_t=ZS-95AXPvebBGG" class="social-btn tiktok" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            </div>
+            <div class="footer-bottom">
+                <p>& copy; 2026 Quran Online Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
